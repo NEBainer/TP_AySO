@@ -1,0 +1,22 @@
+cd repogit
+cd TP_AySO
+pwd
+ls -l
+git commit -m "ADD: Listado de usuarios ordenado"
+echo "tcpdump" > comando_dump_net
+echo "tcpdump -i eth0 -w traffic.pcap" >> comando_dump_net
+ls -l
+git add .
+git commit -m "comando_dump_net" 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << EOF >> README.md
+Alumno: Ezequiel Bainer
+División: C1-#02
+Turno: Noche
+EOF
+
+ls -l
+git add .
+git commit -m "docs: actualizar información del alumno en README.md"
+history -a
